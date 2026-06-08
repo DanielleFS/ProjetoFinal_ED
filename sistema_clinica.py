@@ -214,11 +214,11 @@ class SistemaAtendimento:
 
 def exibir_menu():
     print("\n" + "="*45)
-    print("   SISTEMA DE TRIAGEM E ATENDIMENTO (STAC)   ")
+    print("   SISTEMA DE TRIAGEM E ATENDIMENTO (STA)   ")
     print("="*45)
     print("1. Registrar chegada de paciente")
     print("2. Chamar próximo paciente")
-    print("3. Desfazer última chamada (Ctrl+Z)")
+    print("3. Desfazer última chamada")
     print("4. Visualizar painel de espera")
     print("5. Relatório de atendimentos") #(Heapsort)
     print("0. Sair do sistema")
